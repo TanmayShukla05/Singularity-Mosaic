@@ -1,16 +1,27 @@
 # Singularity Mosaic
 
-A modular pipeline for generating, enhancing, and evaluating high-resolution astronomical images — focused on black hole imaging (e.g., M87).
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-blue)](https://github.com/TanmayShukla05/Singularity-Mosaic)
 
-## Folders
+## 📡 Project Overview
 
-- **M87_image_generation** – Raw image generation from interferometric data  
-- **PSF** – Point Spread Function generation and analysis  
-- **image_enhancement** – Deconvolution, calibration, and adaptive weighting  
-- **Uncertainity analysis** – Analysing the accuracy and closeness of the image generated  
+**Singularity Mosaic** is a radio astronomy data processing and analysis project focused on imaging supermassive black holes using **Very Long Baseline Interferometry (VLBI)** techniques. This project implements advanced image reconstruction algorithms and Bayesian statistical methods to analyze Event Horizon Telescope (EHT) data of M87*.
 
-## Requirements
+### Key Features
+- ✨ **VLBI Data Processing**: Complete pipeline for processing interferometric radio astronomy data
+- 🔭 **CLEAN Algorithm Implementation**: Deconvolution techniques for astronomical image reconstruction
+- 📊 **Bayesian Analysis**: Metropolis-Hastings MCMC sampling for parameter estimation
+- 🌌 **Black Hole Imaging**: Reconstruction of M87* shadow from multi-epoch observations
 
-- Python 3.x  
-- NumPy, Matplotlib, Astropy  
-- CASA (for uvfits support)
+---
+
+## 🛠️ Technologies Used
+
+- **CASA** (Common Astronomy Software Applications) - Radio interferometry data reduction
+- **Python 3.x** - Data analysis and visualization
+- **CuPy** - GPU-accelerated computing for MCMC sampling
+- **NumPy/Matplotlib** - Numerical computing and plotting
+- **FITS** - Flexible Image Transport System file handling
+
+---
+
+## 📂 Repository Structure
